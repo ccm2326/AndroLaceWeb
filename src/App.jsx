@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import HomePage from './pages/HomePage';
 import PapersPage from './pages/PapersPage';
 import './App.css';
+import Chatbot from "./components/Chatbot";
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -24,6 +25,7 @@ function App() {
             <Route path="/papers" element={<PapersPage />} />
           </Routes>
         </main>
+      <Chatbot />
       </div>
     </div>
   );
