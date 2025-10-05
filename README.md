@@ -2,6 +2,8 @@
 
 A modern React-based scientific knowledge platform for exploring research papers and insights.
 
+[![GitHub](https://img.shields.io/badge/GitHub-AndroLaceWeb-blue?style=flat-square&logo=github)](https://github.com/ccm2326/AndroLaceWeb)
+
 ## Features
 
 - **Dashboard**: Overview with statistics and charts
@@ -29,6 +31,11 @@ A modern React-based scientific knowledge platform for exploring research papers
 ### Installation
 
 1. Clone the repository
+   ```bash
+   git clone https://github.com/ccm2326/AndroLaceWeb.git
+   cd AndroLaceWeb
+   ```
+
 2. Install dependencies:
    ```bash
    npm install
@@ -74,6 +81,12 @@ This project is designed to be extended with additional features:
 - **Chat System**: Add intelligent assistant functionality
 - **Visualizations**: Add advanced data visualization pages
 - **Paper Details**: Add detailed paper view pages
+
+## Repository
+
+- **GitHub**: [https://github.com/ccm2326/AndroLaceWeb](https://github.com/ccm2326/AndroLaceWeb)
+- **Issues**: Report bugs and request features
+- **Pull Requests**: Contribute to the project
 
 ## License
 
