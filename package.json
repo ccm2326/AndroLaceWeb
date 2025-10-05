@@ -1,0 +1,46 @@
+{
+  "name": "androLace-insight-frontend",
+  "version": "1.0.0",
+  "description": "Scientific knowledge platform frontend - Explore research papers and insights",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "vite preview --port 3000"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "scientific-papers",
+    "knowledge-platform",
+    "research",
+    "androLace",
+    "insight"
+  ],
+  "author": "AndroLace Insight Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/androLace-insight-frontend.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "framer-motion": "^12.23.22",
+    "lucide-react": "^0.544.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.3",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.37.0",
+    "vite": "^7.1.9"
+  }
+}
