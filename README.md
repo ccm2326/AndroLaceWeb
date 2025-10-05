@@ -85,8 +85,15 @@ This project is designed to be extended with additional features:
 ## Repository
 
 - **GitHub**: [https://github.com/ccm2326/AndroLaceWeb](https://github.com/ccm2326/AndroLaceWeb)
+- **Main Branch**: `main` - Production-ready code
+- **Test Branch**: `prueba` - Testing and experimental features
 - **Issues**: Report bugs and request features
 - **Pull Requests**: Contribute to the project
+
+### Branch Management
+
+- **main**: Stable, production-ready code
+- **prueba**: Testing branch for experimental features and development
 
 ## License
 
