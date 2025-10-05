@@ -7,7 +7,7 @@
   left: 0;
   height: calc(100vh - 80px);
   overflow-y: auto;
-  z-index: 100;
+  z-index: 1000;
   box-shadow: var(--shadow-md);
   transition: transform 0.3s ease;
 }

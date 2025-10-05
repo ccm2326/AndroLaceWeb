@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import HomePage from './pages/HomePage';
 import PapersPage from './pages/PapersPage';
+import PaperDetailPage from './pages/PaperDetailPage';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/papers" element={<PapersPage />} />
+            <Route path="/papers/:id" element={<PaperDetailPage />} />
           </Routes>
         </main>
       </div>
